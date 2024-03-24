@@ -1,0 +1,28 @@
+<template>
+  <RouterView />
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+html,
+body {
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+</style>
